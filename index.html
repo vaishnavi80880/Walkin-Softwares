@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WAKINSOFTWARES</title>
+
+    <!-- Favicons -->
+  <link href="assets/Img/ws_logo111-removebg-preview.png" rel="icon">
+  <link href="assets/Img/ws_logo111-removebg-preview.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- bootstrap-icons  -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<!-- font-awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Include Bootstrap CSS  -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  .product-card:hover,
+  .product-card:focus,
+  .product-card:active {
+    transform: none !important;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .product-card {
+    transition: none !important;
+  }
+
+</style>
+
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style="box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25)">
+    
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/Img/wslogo.jpeg" alt="logo">
+  
+          </a>
+        </div>
+        <div class="navbar-items">
+           <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " style="color: #18B7E7;font-size:20px ;font-weight: 500;" href="index.html">Home</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" style="color: #18B7E7;font-size:20px ;font-weight: 500;" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #18B7E7;font-size:20px ;font-weight: 500;" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #18B7E7;font-size:20px ;font-weight: 500;" href="#services">Services</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" style="color: #18B7E7;font-size:20px ;font-weight: 500;" href="#contact-us">Contact Us</a>
+            </li>
+           
+          </ul>
+        </div>
+      
+    
+  
+        <!-- Navbar toggler for mobile -->
+        <button class="navbar-toggler hamburger" type="button" style="margin-right: 15px;">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <!-- Navbar items for mobile -->
+        <div class="menubar" style="margin-top: 80px;">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-us">About Us</a>
+                </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+    <section id="home" class="home section">
+
+        <div class="container d-flex flex-column flex-lg-row align-items-center "  >
+  
+              <span class="col-lg-6 home-content" >
+  
+                <h1 class="text-white " style="font-size: 40px;font-weight: 600;"> Empowering Your Digital Journey <br> </h1>
+                <h5 class="mb-2 mb-md-5 text-white" style="font-size: 24px;font-weight: 400;">From custom websites to powerful software solutions — we bring your ideas to life</h5>
+                <span class="home-buttons d-flex flex-column flex-lg-row gap-2">
+                  <a href="#" class="btn btn-primary me-0 me-sm-2 mx-1" style="font-size: 20px;font-weight:500;">Get a Free Quote</a>
+                  <a href="#" class="btn btn-primary me-0 me-sm-2 mx-1" style="font-size: 20px;font-weight:500;">See Our Work</a>
+                </span>
+  
+              </span>
+  
+              <span class="col-lg-6 home-image "  >
+                <img src="assets/Img/main.png" alt="Hero Image" class="img-fluid" loading="lazy">
+              </span>
+        </div>
+      </section>
+      <!-- /Home Section -->
+      <h5  class="container mt-4" style="color:  #034D82; font-size:32px;font-weight:500; ">Why Us <span style="color: #76767D;">______</span></h5>
+      <div id="about-us" class="container d-flex flex-column flex-lg-row py-4 align-items-center justify-content-between">
+       
+          <!-- Left column -->
+          <div class="col-md-5">
+            <h2  class="col-10" style="color:#0FB2E3; font-size: 40px;font-weight:500; ">We empower <br>businesses by turning <br> complexity into clarity<br>and growth.</h2>
+            <p class="mt-3" style="color: #90A3B4;font-size: 20px;font-weight:500;" >
+              At WAKINSOFTWARES BHARAT PVT LTD, we’re passionate about driving innovation and delivering results.
+              Our expert team integrates cutting-edge technology with deep domain knowledge to create tailored,
+              scalable solutions for businesses of all sizes.
+            </p>
+          </div>
+      
+          <!-- Right column -->
+          <div class="col-md-6">
+            <h5 class=" mb-5" style="color:  #034D82; font-size: 32px;font-weight:500; ">What sets us apart:</h5>
+      
+            <!-- Feature 1 -->
+            <div class="d-flex align-items-start mb-4">
+              <div class="icon-box icon-blue me-3 p-1">
+                <i class="bi bi-command"></i>
+              </div>
+              <div>
+                <h6 class="fw-bold fs-4" style="color: #034D82; font-size: 24px;font-weight:500;">Integrated Tech Solutions</h6>
+                <p class=" mb-0" style="color: #90A3B4;font-size: 20px;font-weight:500;">We blend services and products into seamless, end-to-end solutions that boost efficiency and reduce friction.</p>
+              </div>
+            </div>
+      
+            <!-- Feature 2 -->
+            <div class="d-flex align-items-start mb-4">
+              <div class="icon-box icon-red me-3 p-1">
+                <i class="bi bi-activity"></i>
+              </div>
+              <div>
+                <h6  class="fw-bold fs-4" style="color: #034D82;font-size: 24px;font-weight:500;">Growth-Oriented Approach</h6>
+                <p class=" mb-0" style="color: #90A3B4;font-size: 20px;font-weight:500;">Every solution is designed to unlock business potential, drive progress, and accelerate digital transformation.</p>
+              </div>
+            </div>
+      
+            <!-- Feature 3 -->
+            <div class="d-flex align-items-start">
+              <div class="icon-box icon-teal me-3 p-1">
+                <i class="bi bi-send"></i>
+              </div>
+              <div>
+                <h6  class="fw-bold fs-4" style="color: #034D82;font-size: 24px;font-weight:500;">Client-Centric Innovation</h6>
+                <p class=" mb-0" style="color: #90A3B4;font-size: 20px;font-weight:500;">We build long-term partnerships by prioritizing your goals, challenges, and success metrics.</p>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+
+      <!-- Our Products  -->
+      <!-- <h5 class="container mt-4 mb-4" style="color:  #034D82;  font-size:32px;font-weight:500; ">Our Products <span style="color: #76767D;">______</span></h5> -->
+       <h5 class="container mt-4 mb-4" 
+    style="color: #034D82; font-size:32px; font-weight:500;">
+  Our Products 
+  <span style="color: #76767D; font-weight:400;">______</span>
+</h5>
+<div id="products" class="container py-4 px-4" style="background-color: #EFFBFF;">
+  <!-- Removed data-bs-ride to stop auto-slide -->
+  <div id="multiCardCarousel" class="carousel slide" data-bs-interval="false">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row justify-content-center">
+
+          <!-- Card 1 -->
+           <!-- text-align: justify; text-justify: inter-word; hyphens: auto; -->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                  TeachFlow – Smarter Learning, Simplified
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; text-justify: inter-word; hyphens: auto; color: #90A3B4; font-size: 19px;font-weight:400;line-height: 1.6;">
+                  TeachFlow is a powerful Learning Management System (LMS) designed to streamline course delivery ,boost learner engagement , and track performance. Featuring AI-powered automation, gamification,and mobile-friendly design, it supports personalized learning and integrates with tools like Zoom and Google Meet. Ideal for educators, businesses, and trainers, TeachFlow simplifies content creation,assessments, and real-time analytics. With secure cloud storage, customizable branding,and multilingual support, TeachFlow is the ultimate scalable solution for efficient learning and skill development.
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--card 2-->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                  eCommKart – Powering Your Online Success
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; text-justify: inter-word; hyphens: auto; color: #90A3B4; font-size: 19px;font-weight:400;line-height: 1.6;">
+                 eCommKart is a robust e-commerce platform designed to simplify online selling for businesses. It offers easy store setup, inventory management, secure payment processing, and seamless order fulfillment for a smooth customer experience. With AI-driven insights, mobile optimization, and multi-channel selling, eCommKart helps businesses scale efficiently. Customizable storefronts, marketing tools, and third-party integrations enhance brand identity and customer engagement. Whether you're a startup or enterprise, eCommKart provides the flexibility, security, and efficiency to grow your online business.
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--card 3-->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                 LuxeLook – Showcase Your Talent, Elevate Your Presence
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; color: #90A3B4; font-size: 19px;font-weight:400; text-justify: inter-word; hyphens: auto;">
+                 LuxeLook is a dynamic digital professional profiling platform tailored for individuals in the film, fashion, and creative industries. It showcases skills, beauty, and expertise, helping artists, models, makeup artists, stylists, and filmmakers build a compelling online presence. With customizable portfolios, multimedia showcases, and industry-specific networking tools, LuxeLook enhances visibility and career opportunities. AI-powered matching and discovery features connect professionals with the right projects and collaborators. Whether launching your career or expanding your reach, LuxeLook empowers you to shine and make your mark
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         <!--card 4-->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                 ClanBridge – Strengthening Family Connections
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; color: #90A3B4; font-size: 19px;font-weight:400; text-justify: inter-word; hyphens: auto;">
+                  ClanBridge is an innovative family networking app that helps users build family trees, manage data, and explore matrimonial connections. With intuitive tools for documenting lineage, sharing memories, and staying connected, ClanBridge strengthens relationships across generations. Its secure platform enables privacy, seamless communication, event planning, and matchmaking tailored to cultural preferences. Whether reconnecting with relatives or finding meaningful alliances, ClanBridge fosters deeper bonds and community engagement. Celebrate your heritage and connect with loved ones like never before with ClanBridge!
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Repeat other cards in the same structure -->
+
+        </div>
+      </div>
+
+      <!-- Slide 2 (similar structure) -->
+      <div class="carousel-item">
+        <div class="row justify-content-center">
+          <!-- Add your next set of cards here -->
+
+
+           <!-- Card 1 -->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                  BizSyncPlus – Elevate Your Digital Presence
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; color: #90A3B4; font-size: 19px;font-weight:400; text-justify: inter-word; hyphens: auto;">
+                 BizSyncPlus is a powerful digital business and professional profiling platform designed to enhance marketing strategies and customer connections. It offers comprehensive business profiles, targeted marketing tools, and AI-driven insights to effectively reach the right prospects. With automated lead generation, personalized outreach, and seamless integration with marketing channels, BizSyncPlus boosts visibility and engagement. Its data-driven approach helps businesses make informed decisions and maximize growth. Whether you're a startup or an established enterprise, BizSyncPlus empowers you to build credibility, expand your reach, and drive success
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--card 2-->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                 EduSoft – Smart Management for Educational Institutions
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; color: #90A3B4; font-size: 19px;font-weight:400; text-justify: inter-word; hyphens: auto;">
+                  BizSyncPlus is a powerful digital business and professional profiling platform designed to enhance marketing strategies and customer connections. It offers comprehensive business profiles, targeted marketing tools, and AI-driven insights to effectively reach the right prospects. With automated lead generation, personalized outreach, and seamless integration with marketing channels, BizSyncPlus boosts visibility and engagement. Its data-driven approach helps businesses make informed decisions and maximize growth. Whether you're a startup or an established enterprise, BizSyncPlus empowers you to build credibility, expand your reach, and drive success.
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--card 3-->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                  TriServe – Smart CRM for Sales, Rental & Service Excell
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; color: #90A3B4; font-size: 19px;font-weight:400;text-justify: inter-word; hyphens: auto;">
+                  TriServe is a powerful CRM solution designed to optimize customer engagement, enhance operational efficiency, and drive business growth. With advanced tools for lead management, sales tracking, rental coordination, and service scheduling, it streamlines customer interactions. AI-driven insights, automated workflows, and real-time analytics help businesses make data-driven decisions and boost customer satisfaction. Seamless integration with existing systems ensures smooth transitions and maximized productivity. Whether managing sales, rentals, or services, TriServe empowers businesses with the tools needed to succeed.
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+         <!--card 4-->
+          <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card product-card h-100 rounded-3 d-flex flex-column">
+              <div class="card-body d-flex flex-column">
+                <img src="assets/Img/Products/LMS2.png" class="mb-2" width="80" alt="icon">
+                <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+                 AIJobConnect – Smart Job Search, Powered by AI
+                </h6>
+                <p class="mt-3 flex-grow-1" style="text-align: justify; color: #90A3B4; font-size: 19px;font-weight:400;text-justify: inter-word; hyphens: auto;">
+                 AIJobConnect is an advanced AI-driven job portal designed to transform how professionals and employers connect. With intelligent matching algorithms, real-time job recommendations, and automated resume screening, it streamlines the hiring process for both job seekers and recruiters. Leveraging AI-powered insights, AIJobConnect personalizes job searches, predicts career trends, and enhances compatibility between candidates and employers. Its global database, smart filters, and skill-based assessments ensure precise job matches across industries. Whether you're seeking top talent or your next career move, AIJobConnect offers a faster, smarter, and more efficient recruitment experience.
+
+                </p>
+                <div class="mt-auto">
+                  <a href="#" class="btn btn-sm" 
+                     style="background-color: #04AADD; color: white;font-size: 20px;font-weight:500;">
+                    Read More <i class="fas fa-arrow-right ms-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <!-- Controls -->
+<button class="carousel-control-prev custom-control" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next custom-control" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+
+
+  </div>
+</div>
+
+        
+
+      <!-- Advanced Digital Services for Smarter Operations -->
+      <h5 class="container mt-3" style="color:  #034D82; font-size: 32px;font-weight:500; "> Advanced Digital Services for Smarter Operations <span style="color: #76767D;">______</span></h5>
+      <section class="py-5">
+        <div class="container">
+          
+          <!-- First Block -->
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <img src="assets/Img/Fess1.jpg" alt="Web Scraper" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <h4 class="fw-bold" style="color: #04AADD;font-size: 24px;font-weight:500;">FESS Crawler & Web Scraper Services</h4>
+              <p style="color: #8EA9C1; text-align: justify;font-size: 20px;font-weight:500;">Boost your data intelligence with customized web crawling and scraping solutions. We build scalable, FESS-powered tools to help you extract, index, and analyze data from any website or internal system.</p>
+              <ul class="list-unstyled text-muted" style="line-height: 2.3;">
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD; font-size: 20px;font-weight:400;"></i>Built on the powerful FESS search framework</li>
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Tailored to specific business data requirements</li>
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Real-time indexing and keyword-based search</li>
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Scalable for large websites and intranet systems</li>
+              </ul>
+              <a href="#" class="btn mt-2 text-white" style="background-color: #04AADD;font-size: 18px;font-weight:500;">Read More</a>
+            </div>
+          </div>
+      
+          <!-- Second Block (image on right) -->
+          <div class="row align-items-center flex-lg-row-reverse">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <img src="assets/Img/podcast & studio1.jpg" alt="Podcast Marketing" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <h4 class="fw-bold" style="color: #04AADD;font-size: 24px;font-weight:500;">Podcast & Digital Marketing Studio</h4>
+              <p style="color: #8EA9C1; text-align: justify;font-size: 20px;font-weight:500;">From voice to visibility—our studio helps brands craft compelling podcasts and boost digital reach. End-to-end solutions from concept to multi-platform distribution and marketing.</p>
+              <ul class="list-unstyled text-muted" style="line-height: 2.3;" >
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Scriptwriting, editing, and sound engineering</li>
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>YouTube and podcast platform publishing</li>
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Social media marketing & ad campaigns</li>
+                <li style="color: #8EA9C1;"><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Designed for startups, coaches & creators</li>
+              </ul>
+              <a href="#" class="btn mt-2 text-white" style="background-color: #04AADD;font-size: 18px;font-weight:500;">Read More</a>
+            </div>
+          </div>
+
+          <!--3rd image-->
+           <div class="row align-items-center mb-5">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <img src="assets\Img\3rd.jpg" alt="Web Scraper" class="img-fluid">
+            </div>
+            <div class="col-lg-6">
+              <h4 class="fw-bold" style="color: #04AADD;font-size: 24px;font-weight:500;">Bring Ideas to Life with Stunning Design & Animation</h4>
+              <p style="color: #8EA9C1; text-align: justify;font-size: 20px;font-weight:500;">We create eye-catching graphics and dynamic animations that capture attention and tell your story. Whether you need branding, motion graphics, explainer videos, or custom illustrations — we blend creativity with strategy to make your visuals unforgettable.</p>
+                            <ul class="list-unstyled text-muted" style="line-height: 2.3;" >
+
+                <li style="color: #8EA9C1; list-style: none; "><i class="fas fa-check-circle me-2" style="color: #04AADD; font-size: 20px;font-weight:400;"></i>Unique and impactful graphic designs tailored to your brand</li>
+                <li style="color: #8EA9C1;list-style: none; "><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Engaging animations that simplify complex ideas</li>
+                <li style="color: #8EA9C1;list-style: none; "><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Custom illustrations and creative assets for all platforms</li>
+                <li style="color: #8EA9C1;list-style: none; "><i class="fas fa-check-circle me-2" style="color: #04AADD;font-size: 20px;font-weight:400;"></i>Visual storytelling that connects with your audience</li>
+              </ul>
+              <a href="#" class="btn mt-2 text-white" style="background-color: #04AADD;font-size: 18px;font-weight:500;">Read More</a>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+
+      <!-- Our Services  -->
+       <div style="background-color: #EFFBFF;">
+      <h5 class="container mt-4 mb-4" style="color:  #034D82; font-size: 32px;font-weight:500; ">Our Services <span style="color: #76767D;">______</span></h5>
+      
+      <div id="services" class="container py-4 px-4" style="background-color: #EFFBFF;">
+        <div id="multiCardCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+    
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+  <div class="row  g-4"> <!-- g-4 adds spacing between cards -->
+    
+    <!-- Card 1 -->
+    <div class="col-11 col-sm-6 col-md-5 col-lg-4 mb-3"> <!-- increased width -->
+      <div class="card product-card h-100 rounded-3">
+        <div class="card-body d-flex flex-column">
+          <video autoplay loop muted playsinline width="80" class="mb-3">
+            <source src="assets/Img/Services/web deve.mp4" type="video/mp4">
+          </video>
+          <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">Web Development</h6>
+          <ul class="text flex-grow-1" style="color: #8EA9C1;font-size: 19px;font-weight:400;">
+            <li>Website Design</li>
+            <li>UI & UX Design</li>
+            <li>Web Application Development</li>
+            <li>Web Hosting & Domain Management</li>
+            <li>Consultation & Strategy</li>
+            <li>Custom Software Development</li>
+            <li>Product Development</li>
+            <li>Third Party API’s Integration</li>
+            <li>AI Integration</li>
+            <li>Web Scraping</li>
+            <li>Annual Maintenance Contract</li>
+          </ul>
+          <!-- Read More Button at bottom-left -->
+          <a href="#" class="btn btn-sm mt-auto align-self-start" 
+             style="background-color: #04AADD; color: white; font-size: 18px; font-weight:500;">
+            Read More <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-11 col-sm-6 col-md-5 col-lg-4 mb-3">
+      <div class="card product-card h-100 rounded-3">
+        <div class="card-body d-flex flex-column">
+          <img src="assets/Img/Services/Digital Marketing1.gif" class="mb-3" width="80" alt="icon">
+          <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">Digital Marketing</h6>
+          <ul class="text flex-grow-1" style="color: #8EA9C1;font-size: 19px;font-weight:400;">
+            <li>SEO</li>
+            <li>Content Marketing</li>
+            <li>Video Production</li>
+            <li>Social Media Marketing</li>
+            <li>Web Analytics</li>
+            <li>AI Integration</li>
+          </ul>
+          <a href="#" class="btn btn-sm mt-auto align-self-start" 
+             style="background-color: #04AADD; color: white; font-size: 18px; font-weight:500;">
+            Read More <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-11 col-sm-6 col-md-5 col-lg-4 mb-3">
+      <div class="card product-card h-100 rounded-3">
+        <div class="card-body d-flex flex-column">
+          <img src="assets/Img/Services/app development1.gif" class="mb-3" width="80" alt="icon" style="width: 200px;">
+          <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+            ClanBridge – Strengthening Family Connections
+          </h6>
+          <ul class="text flex-grow-1" style="color: #8EA9C1;font-size: 19px;font-weight:400;">
+            <li>App Design</li>
+            <li>UI & UX Design</li>
+            <li>Custom App Development</li>
+            <li>API Integration</li>
+            <li>Maintenance Contract</li>
+            <li>AI Integration</li>
+          </ul>
+          <a href="#" class="btn btn-sm mt-auto align-self-start" 
+             style="background-color: #04AADD; color: white; font-size: 18px; font-weight:500;">
+            Read More <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    
+            <!-- Slide 2 -->
+                       <div class="carousel-item ">
+  <div class="row  g-4"> <!-- g-4 adds spacing between cards -->
+    
+    <!-- Card 1 -->
+    <div class="col-11 col-sm-6 col-md-5 col-lg-4 mb-3"> <!-- increased width -->
+      <div class="card product-card h-100 rounded-3">
+        <div class="card-body d-flex flex-column">
+          <video autoplay loop muted playsinline width="80" class="mb-3">
+            <source src="assets/Img/Services/web deve.mp4" type="video/mp4">
+          </video>
+          <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">Cloud Services</h6>
+          <ul class="text flex-grow-1" style="color: #8EA9C1;font-size: 19px;font-weight:400;">
+            <li>Cloud Migration</li>
+            <li>Devops</li>
+            <li>Security</li>
+            
+            
+          </ul>
+          <!-- Read More Button at bottom-left -->
+          <a href="#" class="btn btn-sm mt-auto align-self-start" 
+             style="background-color: #04AADD; color: white; font-size: 18px; font-weight:500;">
+            Read More <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-11 col-sm-6 col-md-5 col-lg-4 mb-3">
+      <div class="card product-card h-100 rounded-3">
+        <div class="card-body d-flex flex-column">
+          <img src="assets/Img/Services/Digital Marketing1.gif" class="mb-3" width="80" alt="icon">
+          <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">R & D</h6>
+          <ul class="text flex-grow-1" style="color: #8EA9C1;font-size: 19px;font-weight:400;">
+            <li>Prototype Innovation</li>
+            <li>Content Marketing</li>
+            <li>Internships</li>
+            <li>Workshops</li>
+            
+          </ul>
+          <a href="#" class="btn btn-sm mt-auto align-self-start" 
+             style="background-color: #04AADD; color: white; font-size: 18px; font-weight:500;">
+            Read More <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-11 col-sm-6 col-md-5 col-lg-4 mb-3">
+      <div class="card product-card h-100 rounded-3">
+        <div class="card-body d-flex flex-column">
+          <img src="assets/Img/Services/app development1.gif" class="mb-3" width="80" alt="icon">
+          <h6 class="fw-bold" style="color: #034D82;font-size: 24px;font-weight:500;">
+            Outsourcing
+          </h6>
+          <ul class="text flex-grow-1" style="color: #8EA9C1;font-size: 19px;font-weight:400;">
+            <li>Project Outsourcin</li>
+            <li>Staff Outsourcin</li>
+            
+          </ul>
+          <a href="#" class="btn btn-sm mt-auto align-self-start" 
+             style="background-color: #04AADD; color: white; font-size: 18px; font-weight:500;">
+            Read More <i class="fas fa-arrow-right ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+    
+          </div>
+    
+          <!-- Controls -->
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#multiCardCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button> -->
+    
+          <!-- Indicators -->
+          <!-- <div class="carousel-indicators mt-5">
+            <button type="button" data-bs-target="#multiCardCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#multiCardCarousel" data-bs-slide-to="1"></button>
+          </div> -->
+        </div>
+      </div>
+      </div>
+
+
+        <!-- Our Specialization -->
+         <div style="background-color: #18B7E7; padding-top: 10px;">
+  <h5 class="container mt-3" style="color: #FFFFFF; font-size: 32px;font-weight:500; ">Our Specialization<span style="color: #FFFFFF">______</span></h5>
+  <section class="py-5">
+    <div class="container col-lg-8 align-items-center justify-content-center ">
+      <div class="row g-5">
+        
+        <!-- Card Template -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+            <div class="card-body text-start">
+              <img src="assets/Img/Specialization/web and digital11.png" class="mb-3" alt="Icon" width="40">
+              <p style="color: #034D82; font-size: 24px;font-weight:500;">Web & Digital Marketing</p>
+              <div class="text-start">
+                <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+ <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+            <div class="card-body text-start">
+              <img src="assets/Img/Specialization/APP develop.png" class="mb-3" alt="Icon" width="40">
+              <p style="color: #034D82; font-size: 24px;font-weight:500;">App (Android & iOS)</p>
+              <div class="text-start">
+                <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-lg-3">
+  <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+    <div class="card-body d-flex flex-column justify-content-between text-start">
+      
+      <!-- Top Content -->
+      <div>
+        <img src="assets/Img/Specialization/AI1.png" class="mb-3" alt="Icon" width="40">
+        <p style="color: #034D82; font-size: 24px; font-weight:500;">AI Integration</p>
+      </div>
+
+      <!-- Bottom Left Arrow -->
+      <div class="text-start">
+        <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+            <div class="card-body text-start">
+              <img src="assets/Img/Specialization/web-scraper1.png" class="mb-3" alt="Icon" width="40">
+              
+              <p style="color: #034D82; font-size: 24px;font-weight:500;">Web Scraping & Crawler</p>
+              <div class="text-start">
+                <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- More cards -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+            <div class="card-body text-start">
+              <img src="assets/Img/Specialization/APP develop.png" class="mb-3" alt="Icon" width="40">
+              <p style="color: #034D82; font-size: 24px;font-weight:500;">App (Android & iOS)</p>
+              <div class="text-start">
+                <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+            <div class="card-body text-start">
+              <img src="assets/Img/Specialization/api1.png" class="mb-3" alt="Icon" width="40">
+                <p style="color: #034D82; font-size: 24px;font-weight:500;">Third Party API's Integration</p>
+              <div class="text-start">
+                <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+            <div class="card-body text-start">
+              <img src="assets/Img/Specialization/graphic1.png" class="mb-3" alt="Icon" width="40">
+               <p style="color: #034D82; font-size: 24px;font-weight:500;">Graphics and Animation</p>
+
+              <div class="text-start">
+                <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+         <div class="col-12 col-sm-6 col-lg-3">
+  <div class="card h-100 border-0 rounded-2" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
+    <div class="card-body d-flex flex-column justify-content-between text-start">
+      
+      <!-- Top Content -->
+      <div>
+        <img src="assets/Img/Specialization/AI1.png" class="mb-3" alt="Icon" width="40">
+        <p style="color: #034D82; font-size: 24px; font-weight:500;">Data Analysis</p>
+      </div>
+
+      <!-- Bottom Left Arrow -->
+      <div class="text-start">
+        <i class="fas fa-arrow-right text-primary" style="font-size: 30px;"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </section>
+  </div>
+
+
+<!-- Partners Section -->
+      <h5 class="container mt-3" style="color:  #034D82;  font-size: 32px;font-weight:500;">Our Partners <span style="color: #76767D;">______</span></h5>
+<section id="partners" class="clients section py-4">
+    <div class="container">
+  
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper align-items-center">
+          <!-- Add as many logos as you need -->
+          <div class="swiper-slide"><img src="assets/img/Partners/Amodhainfo.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/hallakatticollege.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/C2C.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/karunadutechnologies.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/ashvaexperts.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/srpucollege.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/actimage.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/reylon.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/shreekrish.png" class="img-fluid" alt=""></div>
+          <div class="swiper-slide"><img src="assets/img/Partners/truesense.png" class="img-fluid" alt=""></div>
+        </div>
+  
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  
+  
+   <!-- Footer section  -->
+   <footer  id="contact-us" class="footer">
+
+    <div class="container footer-top d-lg-flex gy-4 justify-content-around ">
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="index.html" class=" d-flex align-items-right text-dark text-decoration-none">
+
+          <h5 class="text-white" style=" font-size: 40px;font-weight:500;" > WAKINSOFTWARES BHARAT PVT LTD </h5>
+        </a>
+        <span class="footer-contact pt-3" >
+          <p style=" font-size: 19px;font-weight:400;">#34, 3rd Floor, 36th Main Road, 2nd Block ,</p>
+          <p style=" font-size: 19px;font-weight:400;" >Rajajinagar, Bengaluru-560010</p>
+          <p class="mt-3" style=" font-size: 19px;font-weight:400;"><strong>Phone:</strong> <span>+91 7338430816</span></p>
+          <p style=" font-size: 19px;font-weight:400;"><strong>Email:</strong> <span>info@walkinsoftwares.com</span></p>
+        </span>
+        <span class="social-links d-flex mt-3">
+          <a href="https://x.com/WakinSoftwares" target="_blank"> <i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=61565870609829" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/wakinsoftwaresbharat/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/wakin-softwares-179ba4328/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="" target="_blank"><i class="bi bi-youtube" ></i></a>
+        </span>
+      </div>
+
+      <div id="navmenu" class="col-lg-2 col-md-3 footer-links" >
+        <p style=" font-size: 25px;font-weight:600;">Useful Links</p>
+        <ul >
+          <li><a class="text-decoration-none" href="index.html" style=" font-size: 19px;font-weight:400;" >Home</a></li>
+          <li><a class="text-decoration-none" href="#about-us" style=" font-size: 19px;font-weight:400;">About us</a></li>
+          <li><a class="text-decoration-none" href="#products" style=" font-size: 19px;font-weight:400;">Products</a></li>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">Services</a></li>
+          <li><a class="text-decoration-none" href="#contact-us" style=" font-size: 19px;font-weight:400;">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <p style=" font-size: 25px;font-weight:600;">Our Services</p>
+        <ul>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">Web Development</a></li>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">Digital Marketing</a></li>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">App Development</a></li>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">Cloud</a></li>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">R&D</a></li>
+          <li><a class="text-decoration-none" href="#services" style=" font-size: 19px;font-weight:400;">Outsourcing</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  <div class="container-fluid copyright text-center mt-3" style=" font-size: 19px;font-weight:400;">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename" > <a href="" style="color: #FFFFFF; text-decoration: none;">WAKINSOFTWARES BHARAT PVT LTD</a> </strong>
+      <span>All Rights Reserved.</span>
+    </p>
+  </div>
+
+</footer>
+<!-- /Footer section  -->
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+    class="bi bi-arrow-up-short"></i></a>
+    <script>
+      const scrollTopBtn = document.getElementById('scroll-top');
+    
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+          scrollTopBtn.classList.add('active');
+        } else {
+          scrollTopBtn.classList.remove('active');
+        }
+      });
+    
+      scrollTopBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
+    
+
+    <!--whatApp and calling  -->
+    <div class="floats">
+      <a href="https://wa.me/+917338430816" target="_blank" rel="noopener noreferrer">
+        <img src="assets/Img/Services/whatsapp.png" alt="WhatsApp" />
+      </a>
+
+      <a href="tel:+917975455855">
+        <img src="assets/Img/Services/telephone.png" alt="Call Me" />
+      </a>
+    </div><!-- /whatApp and calling  -->
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <!-- Swiper Initialization -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.mySwiper', {
+        loop: true,
+        speed: 500,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          dynamicBullets: true
+        },
+        breakpoints: {
+          320: { slidesPerView: 2, spaceBetween: 40 },
+          480: { slidesPerView: 3, spaceBetween: 60 },
+          640: { slidesPerView: 4, spaceBetween: 80 },
+          992: { slidesPerView: 6, spaceBetween: 60 }
+        }
+      });
+    });
+  </script>
+
+      <!--NAVBAR script  -->
+   <!-- toggle  -->
+   <script>
+    const hamburger = document.querySelector(".hamburger");
+    const menubar = document.querySelector(".menubar");
+    const menuItems = document.querySelectorAll(".menubar ul li");
+
+    function toggleMenu() {
+      if (menubar.classList.contains("active")) {
+        menubar.classList.remove("active");
+        hamburger.classList.remove("hamburger-active");
+        menuItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.remove("show");
+          }, index * 100);
+        });
+      } else {
+        menubar.classList.add("active");
+        hamburger.classList.add("hamburger-active");
+        menuItems.forEach((item, index) => {
+          setTimeout(() => {
+            item.classList.add("show");
+          }, index * 100);
+        });
+      }
+    }
+
+    hamburger.addEventListener("click", toggleMenu);
+
+    const menuLinks = document.querySelectorAll(".menubar ul li a");
+    menuLinks.forEach(function (menuLink) {
+      menuLink.addEventListener("click", toggleMenu);
+    });
+  </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
