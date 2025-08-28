@@ -478,6 +478,46 @@ nav bar
 /* ---------------------------------------------------------------
   specialization 
 --------------------------------------------------------------- */
+/* 
+.specialization-card {
+  height: 160px; 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
+}
+
+.specialization-card .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.specialization-card .card-title {
+  color: #034D82;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.specialization-card i {
+  font-size: 24px;
+  color: #034D82;
+} */
+
+.special-card {
+    min-height: 190px; /* adjust if you want taller/shorter */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Remove extra space under arrow */
+  .arrow-icon {
+    font-size: 34px;
+    color: #034D82;
+    line-height: 1;
+    display: inline-block;
+  }
+
 .card 
 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -717,8 +757,9 @@ left: 80%;  /* Adjust to 80% for small screens */
   background-size: 60% 60%;
 }
 .carousel-control-prev.custom-control {
-  left: -170px;   /* push left arrow outside carousel */
+  left: -130px;   /* push left arrow outside carousel */
 }
 .carousel-control-next.custom-control {
-  right: -170px;  /* push right arrow outside carousel */
+  right: -130px;  /* push right arrow outside carousel */
 }
+
